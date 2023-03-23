@@ -4,7 +4,7 @@ let menuVisible = false;
 
 function mostrarOcultarMenu(){
     if(menuVisible){
-        document.getElementById("nav").classList = "";
+        document.getElementById("nav").classList ="";
         menuVisible = false;
     }else{
         document.getElementById("nav").classList = "responsive";
@@ -39,7 +39,7 @@ function efect_habilidades(){
         habilidades[11].classList.add("creatividad");
         habilidades[12].classList.add("disponibilidadHoraria");
         habilidades[13].classList.add("altoAprendizaje");
-
+        
     }
 }
 
