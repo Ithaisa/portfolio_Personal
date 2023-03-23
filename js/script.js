@@ -46,5 +46,5 @@ function efect_habilidades(){
 //Primero se detecta el scroll para poder aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efect_habilidades();
-}
+};
 
